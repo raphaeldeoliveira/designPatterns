@@ -1,6 +1,7 @@
 package com.mycompany.designpatterns;
 
 import com.mycompany.designpatterns.AbstractFactory.AbstractFactoryPatternDemo;
+import com.mycompany.designpatterns.Builder.BuildPatternDemo;
 import com.mycompany.designpatterns.Factory.FactoryPatternDemo;
 import com.mycompany.designpatterns.Singleton.SingletonPatternDemo;
 
@@ -23,5 +24,9 @@ public class DesignPatterns {
         SingletonPatternDemo singleton = new SingletonPatternDemo();
         singleton.init();
         
+        // Builder
+        System.out.println("-----------------\nAbstract Factory\n");
+        BuildPatternDemo builder = new BuildPatternDemo();
+        builder.init();
     }
 }
